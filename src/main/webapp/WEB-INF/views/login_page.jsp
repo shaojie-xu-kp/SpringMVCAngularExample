@@ -9,8 +9,7 @@
 <%
  
 String errorString = (String)request.getAttribute("error");
-if(errorString != null && errorString.trim().equals("true")){
-out.println("Incorrect login name or password. Please retry using correct login name and password.");
+if(errorString != null && errorString.trim().equals("true")){out.println("Incorrect login name or password. Please retry using correct login name and password.");
 }
 %>
  
